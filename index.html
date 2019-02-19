@@ -1,27 +1,41 @@
-<!doctype html>
+<!DOCTYPE html>
+<!-- doctype tells the browser what version of HTML we are using (HTML 5) -->
 
-<html>
-
+<html lang="en">
+    
     <head>
-        <title>Assignment 1 - FWD</title>
+<!--    No content in the <head>  -->
+        <title>Assignnment 1</title>
     </head>
-    
+
     <body>
-
-        <h1>The Tocumwal Archive</h1>
-
-        <p></p>
-
-        <ul>
-            <li>Create a folder called 'assets'</li>
-            <li>Don't capitalise your file or folder names</li>
-            <li>Don't use spaces</li>
-            <li>Instead of spaces you can use underscores - '_'</li>
-            <li>Or, you can use 'camel case' - thisIsCamelCase</li>
-        </ul>
-
-        <img src="assets/image/GI.jpg">
-
+        <header>
+            <h1 id="title">The Most Important Heading - The Title</h1>
+            <nav>
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="#firstStory">A Story</a></li>
+                    <li><a href="#secondStory">Another Story</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <article id="firstStory">
+                <h2>A Story</h2>
+                <p>The <em>quick</em> brown fox...</p>
+                <img src="assets/img/tocumwal-naa-1.jpg" alt="An old house plan with tape all over it">
+            </article>
+            
+            <article id="secondStory">
+                <h2>A Second Story</h2>
+                <p>The <strong>quick</strong> brown fox again...</p>
+            </article>
+            
+        </main>
+        <footer>
+            <a href="#title">^ Back to top ^</a>
+        </footer>
+        
     </body>
-    
+<!--  No content here -->
 </html>
